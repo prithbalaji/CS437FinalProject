@@ -7,16 +7,16 @@ Make sure you have the following libraries installed:
 NumPy
 Matplotlib
 Scikit-learn (for make_blobs)
+
 Run: pip install numpy matplotlib scikit-learn
 
 Getting Started
+
 Clone this repository to your local machine:
-bash
-Copy code
-git clone https://github.com/your-username/your-repository.git
+
 cd your-repository
 
-Open the Python script where the radar data processing is implemented (your_script.py).
+Open the Python script where the radar data processing is implemented (FinalProjectCode.py).
 Specify the binary file path in the script:
 python
 Copy code
@@ -27,7 +27,10 @@ Run the script. The radar data will be parsed, and the range profiles will be co
 
 
 Feel free to customize the script based on your specific use case and requirements.
+
 **Functions**
+
 parse_ADC(binDirPath) -> This function parses ADC data from the specified binary file directory (binDirPath) and returns a list of dictionaries, where each dictionary represents information for a specific frame.
+
 convert_range_profile_to_distances(range_profile, fs=100e6/8, c0=3e8, S=170e12, num_ADC=256) -> 
 This function takes a range profile as input and converts it to distances. It uses parameters such as sampling frequency (fs), speed of light (c0), sweep bandwidth (S), and number of ADC samples (num_ADC) to perform the conversion.
