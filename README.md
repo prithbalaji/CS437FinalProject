@@ -8,7 +8,7 @@ NumPy
 Matplotlib
 Scikit-learn (for make_blobs)
 
-Run: pip install numpy matplotlib scikit-learn
+Run: '''pip install numpy matplotlib scikit-learn'''
 
 Getting Started
 
