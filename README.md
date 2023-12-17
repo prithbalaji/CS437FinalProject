@@ -21,7 +21,7 @@ Open the Python script where the radar data processing is implemented (your_scri
 Specify the binary file path in the script:
 python
 Copy code
-# specify the binary file path below
+- specify the binary file path below
 binDirPath = "path/to/your/binary/file"
 
 Run the script. The radar data will be parsed, and the range profiles will be converted to distances. The script will generate a plot showing the variation in distances over frames.
