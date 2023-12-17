@@ -1,14 +1,13 @@
-Radar Data Processing Readme
+**Radar Data Processing Readme
+**
 This repository contains Python code for processing radar data obtained from a system. The code includes functions for parsing binary output from the radar, converting range profiles to distances, and visualizing the results. The main purpose of this code is to extract meaningful information from radar measurements, such as detecting objects and analyzing their movement.
+
 Prerequisites
 Make sure you have the following libraries installed:
 NumPy
 Matplotlib
 Scikit-learn (for make_blobs)
-You can install them using the following:
-bash
-Copy code
-pip install numpy matplotlib scikit-learn
+Run: pip install numpy matplotlib scikit-learn
 
 Getting Started
 Clone this repository to your local machine:
